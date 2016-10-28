@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ASICP_MD_ANN.dir/asicp_md_main_ANN.o CMakeFiles/ASICP_MD_ANN.dir/mathUtils.o CMakeFiles/ASICP_MD_ANN.dir/OPP.o CMakeFiles/ASICP_MD_ANN.dir/ASOPP_Major.o CMakeFiles/ASICP_MD_ANN.dir/asicp_md_ann.o  -o ASICP_MD_ANN -rdynamic -lann 

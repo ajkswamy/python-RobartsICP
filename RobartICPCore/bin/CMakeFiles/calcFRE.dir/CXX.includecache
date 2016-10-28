@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aj/repos/python-RobartsICP/RobartICPCore/cppSource/calcFRE.cpp
+iostream
+-
+fstream
+-
+string
+-
+cfloat
+-
+matrix.h
+/home/aj/repos/python-RobartsICP/RobartICPCore/cppSource/matrix.h
+ANN/ANN.h
+-
+
+/home/aj/repos/python-RobartsICP/RobartICPCore/cppSource/matrix.h
+cassert
+-
+iostream
+-
+strstream
+-
+cmath
+-
+cstdlib
+-
+
