@@ -190,7 +190,7 @@ int main( int argc, char *argv[] )
   
 
 
-  std::cerr << "Final answer: " << minInitQ << minR << minA << minT << std::endl;
+  std::cerr << "Final answer: " << minInitQ << minR << minA << minT << minFREMag[minFREMag.size() - 1]<< std::endl;
 
   
 //  std::ofstream myfile;

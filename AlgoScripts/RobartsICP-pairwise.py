@@ -43,14 +43,14 @@ testPath = homeFolder + '/DataAndResults/morphology/OriginalData/chiangLLC/'
 # testPath = homeFolder + '/DataAndResults/morphology/UnReg-CentroidMatched/chiangLLC/'
 refPath = homeFolder + '/DataAndResults/morphology/Registered/chiangLLC/'
 expNames = [
-            # 'Gad1-F-000062.CNG',
-            # 'Cha-F-000012.CNG',
-            # 'Cha-F-300331.CNG',
-            # 'Gad1-F-600000.CNG',
+            'Gad1-F-000062.CNG',
+            'Cha-F-000012.CNG',
+            'Cha-F-300331.CNG',
+            'Gad1-F-600000.CNG',
             'Cha-F-000018.CNG',
-            # 'Cha-F-300051.CNG',
-            # 'Cha-F-400051.CNG',
-            # 'Cha-F-200000.CNG'
+            'Cha-F-300051.CNG',
+            'Cha-F-400051.CNG',
+            'Cha-F-200000.CNG'
             ]
 
 resDir = homeFolder + '/DataAndResults/morphology/UnRegReg-RobartsICP/chiangLLC/'
@@ -64,8 +64,8 @@ for expInd, expName in enumerate(expNames):
 
     SWC2Align = os.path.join(testPath, expName + '.swc')
 
-    # runRICP(refSWC, SWC2Align, os.path.join(resDir, expName + '.swc'))
-    runRICP(refSWC, SWC2Align, os.path.join(resDir, expName + '.swc'), False)
+    runRICP(refSWC, SWC2Align, os.path.join(resDir, expName + '.swc'))
+    # runRICP(refSWC, SWC2Align, os.path.join(resDir, expName + '.swc'), False)
 
 
 
